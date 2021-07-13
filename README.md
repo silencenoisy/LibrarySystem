@@ -1,2 +1,2 @@
 # LibrarySystem
-### please change  '[config.py](./app/config.py)' to connect your datebase.
+### please change  '[config.py](./app/config.py)' in line 5 to connect your datebase.
