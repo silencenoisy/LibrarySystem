@@ -2,8 +2,7 @@ import os
 import pymysql
 class Config(object):
     # dsn = "Provider=ODBC Driver 17 for SQL Server;Data Source=47.99.169.188,1433;Initial Catalog=LibraryApp;User ID=sa;Password=yrd00929.;"
-    SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://sa:yrd00929.@libraryAppOdbc64'
-    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://myblog:00929.@127.0.0.1:3306/myblog'
+    SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://username:password@ODBCname' # please change this config
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = False
     XD_USER_DIR = "static/upload/users"
